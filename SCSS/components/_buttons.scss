@@ -1,0 +1,49 @@
+body.dark-mode {
+    background-color: #000000;
+    color: #ffffff; 
+    
+    
+    a {
+      color: white;
+    }
+    #darkModeIcon {
+      background-color: white;
+      background-image:-webkit-linear-gradient(top, #faf6f6 0%, white 100%);
+      background-image:linear-gradient(to bottom,  #faf6f6 0%, white 100%);
+    }
+    #myBtn {
+      background-color: white;
+      color: black;
+    }
+    #menu a {
+      color: white;
+    }
+  }
+  #darkModeIcon {
+    height :34px;
+    background-color: #2e2d30;
+    background-image:-webkit-linear-gradient(top, #2e2d30 0%, rgb(31, 30, 30) 100%);
+    background-image:linear-gradient(to bottom,  #2e2d30 0%, rgb(31, 30, 30) 100%);
+    width: 2%;
+    font-size: 0.9em;
+        
+  }
+  #myBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+    z-index: 100;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #777;
+  }
+  

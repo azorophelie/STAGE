@@ -1,0 +1,180 @@
+#menu, #menu ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+#menu li {
+  display: inline-block;
+  position: relative;
+  border-radius: 8px 8px 0 0;
+}
+
+#menu ul li {
+  display: inherit;
+  border-radius: 0;
+}
+
+#menu ul li:hover {
+  border-radius: 0;
+}
+
+#menu ul li:last-child {
+  border-radius: 0 0 8px 8px;
+}
+
+#menu ul {
+  position: absolute;
+  z-index: 1;
+  max-height: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  transition: 0.8s all 0.3s;
+}
+
+#menu li:hover ul {
+  max-height: 15em;
+}
+
+/* background des liens menus */
+#menu li:first-child {
+  background-color: #a9bbe1;
+  background-image: linear-gradient(to bottom, #a9bbe1 0%, #221e4c 100%);
+}
+
+#menu li:nth-child(2) {
+  background-color: #f7dba3;
+  background-image: linear-gradient(to bottom, #f7dba3 0%, #a8583f 100%);
+}
+
+#menu li:nth-child(3) {
+  background-color: #221e4c;
+  background-image: linear-gradient(to bottom, #221e4c 0%, #a9bbe1 100%);
+}
+
+/*#menu li:nth-child(4) {
+    background-color: #a8583f;
+    background-image:-webkit-linear-gradient(top, #a8583f 0%, #f7dba3 100%);
+    background-image:linear-gradient(to bottom, #a8583f 0%, #f7dba3 100%);
+    }*/
+#menu .contact:last-child {
+  background-color: #a8583f;
+  background-image: linear-gradient(to bottom, #a8583f 0%, #f7dba3 100%);
+}
+
+/* background des liens sous menus */
+#menu li:first-child li {
+  background: #2A2333;
+}
+
+#menu li:nth-child(2) li {
+  background: #333A40;
+}
+
+#menu li:nth-child(3) li {
+  background: #9F391A;
+}
+
+#menu li:last-child li {
+  background: #677F35;
+}
+
+/* background des liens menus et sous menus au survol */
+#menu li:first-child:hover, #menu li:first-child li:hover {
+  background: #65537A;
+}
+
+#menu li:nth-child(2):hover, #menu li:nth-child(2) li:hover {
+  background: #729EBF;
+}
+
+#menu li:nth-child(3):hover, #menu li:nth-child(3) li:hover {
+  background: #F6AD1A;
+}
+
+#menu li:last-child:hover, #menu li:last-child li:hover {
+  background: #CFFF6A;
+}
+
+/* les a href */
+#menu a {
+  text-decoration: none;
+  display: block;
+  padding: 8px 70px;
+  font-family: "Fira", cursive;
+}
+
+.navblack {
+  color: black;
+  border-radius: 8px 8px 0 0;
+}
+
+#menu ul a {
+  padding: 8px 0;
+}
+
+#menu li:hover li a {
+  color: #fff;
+  text-transform: inherit;
+}
+
+#menu li:hover a, #menu li li:hover a {
+  color: #f7e2e2;
+}
+
+body {
+  background-color: white;
+  color: black;
+}
+
+.log {
+  text-align: center;
+}
+
+body.dark-mode {
+  background-color: #000000;
+  color: #ffffff;
+}
+body.dark-mode a {
+  color: white;
+}
+body.dark-mode #darkModeIcon {
+  background-color: white;
+  background-image: linear-gradient(to bottom, #faf6f6 0%, white 100%);
+}
+body.dark-mode #myBtn {
+  background-color: white;
+  color: black;
+}
+body.dark-mode #menu a {
+  color: white;
+}
+
+#darkModeIcon {
+  height: 34px;
+  background-color: #2e2d30;
+  background-image: linear-gradient(to bottom, #2e2d30 0%, rgb(31, 30, 30) 100%);
+  width: 2%;
+  font-size: 0.9em;
+}
+
+#myBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 15px;
+  z-index: 100;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  background-color: #000000;
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #777;
+}/*# sourceMappingURL=main.css.map */
