@@ -1,0 +1,93 @@
+@media screen and (min-width : 300px) and (max-width : 1000px) {
+#menu {
+        display:none;
+    }
+    .logosite {
+        width: 50%;
+    }
+    #dark {
+       display: block;
+       margin-left:85%;
+       margin-top: -43%;
+       width: 8%;
+       border: none;
+       background-color: transparent;
+       font-size: 15px;
+       
+    }
+    .mobile-menu {
+        display: block;
+        margin-left: 94%;
+        margin-top: -7.5%;
+
+        
+        
+        
+      }
+      .dropdown-content li {
+        list-style-type: none;
+      }
+      
+      .dropdown {
+        position: relative;
+        display: inline-block;
+       
+        
+      }
+      .submenu {
+        display: none;
+        padding-left: 20px;
+        text-align: left;
+      }
+      
+      .submenu li {
+        position: relative;
+      }
+      
+      .submenu a {
+        padding: 10px;
+        
+      }
+      
+      .mobile-menu li.open > .submenu {
+        display: block;
+      }
+      .dropbtn {
+        background-color: transparent;
+        color: #a9bbe1;
+        padding: 12px;
+        font-size: 20px;
+        border: none;
+        cursor: pointer;
+        margin-left: -10%;
+        
+      
+        
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: fixed;
+        background-color: #a9bbe1;
+        min-width: 160px;
+        font-size: 15px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        left: 65%;
+        top :8.5%;
+        text-align: justify;
+       
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+        
+      }
+}

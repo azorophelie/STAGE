@@ -18,15 +18,28 @@ body.dark-mode {
     #menu a {
       color: white;
     }
+.client {
+    width: 4%;
+    background-color: #f7dba3;
+    background-image:-webkit-linear-gradient(top, #f7dba3 0%, #da8166 100%);
+    background-image:linear-gradient(to bottom, #f7dba3 0%, #da8166 100%);
   }
+  
+}
   #darkModeIcon {
-    height :34px;
-    background-color: #2e2d30;
-    background-image:-webkit-linear-gradient(top, #2e2d30 0%, rgb(31, 30, 30) 100%);
-    background-image:linear-gradient(to bottom,  #2e2d30 0%, rgb(31, 30, 30) 100%);
-    width: 2%;
-    font-size: 0.9em;
+    height :39px;
+    border:none;
+    background-color: black;
+    width: 1.4%;
+    font-size: 1em;
+    border-radius: 8px 8px 0 0;
         
+  }
+  #dark { 
+    display: none;
+  }
+  .mobile-menu {
+    display: none;
   }
   #myBtn {
     position: fixed;

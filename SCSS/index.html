@@ -17,32 +17,29 @@
     <header>
         <div class="log">
         <img class="logosite" src="images/AJLAcommunity.png">
+        
         </div>
+   
+        
         <nav>
           
              <ul id="menu">
-                <li><a class="navblack" href="#">Accueil</a>
+              
+                <li><a class="navblack" href="#">Accueil</a></li>
+                <li><a class="navblack" href="#">Services &nbsp;<i class="fa-solid fa-chevron-down"></i></a>
                     <ul>
-                        <li><a href="#">lien sous menu 1</a></li>
-                        <li><a href="#">lien sous menu 1</a></li>
-                        <li><a href="#">lien sous menu 1</a></li>
-                        <li><a href="#">lien sous menu 1</a></li>
+                        <li><a href="#">Comptabilité</a></li>
+                        <li><a href="#">Fiscalité</a></li>
+                        <li><a href="#">Audit et Certification</a></li>
+                        <li><a href="#">Conseil en Gestion Financière</a></li>
                     </ul>
                 </li>
-                <li><a class="navblack" href="#">A propos &nbsp;<i class="fa-solid fa-chevron-down"></i></a>
+                <li><a class="navblack" href="#">Ressources&nbsp;<i class="fa-solid fa-chevron-down"></i></a>
                     <ul>
-                        <li><a href="#">Lien sous menu 2</a></li>
-                        <li><a href="#">Lien sous menu 2</a></li>
-                        <li><a href="#">Lien sous menu 2</a></li>
-                        <li><a href="#">Lien sous menu 2</a></li>
-                    </ul>
-                </li>
-                <li><a class="navblack" href="#">menu 3 &nbsp;<i class="fa-solid fa-chevron-down"></i></a>
-                    <ul>
-                        <li><a href="#">lien sous menu 3</a></li>
-                        <li><a href="#">lien sous menu 3</a></li>
-                        <li><a href="#">lien sous menu 3</a></li>
-                        <li><a href="#">lien sous menu 3</a></li>
+                        <li><a href="#">Guides Comptables et Fiscaux</a></li>
+                        <li><a href="#">Actualités et articles</a></li>
+                        <li><a href="#">Foire aux questions (FAQ)</a></li>
+                        <li><a href="#">Termes Comptables</a></li>
                     </ul>
                 </li>
                 <!--<li><a class="navblack" href="#">menu 4 &nbsp;<i class="fa-solid fa-chevron-down"></i></a>
@@ -55,10 +52,47 @@
                 </li>
                 <li><a  class="navblack contact" href="#">Contact</a></li>
                 <button onclick="toggleDarkMode()" id="darkModeIcon">🌙</button>
-                    
+                
+                <a class="client" href="#"><i class="fas fa-arrow-right">&emsp;</i>Espace Client</a>
             </ul>
+           
+            
+            <figure class="entete">
+                <img src="images/cabinet.png" alt="Cabinet Expert Comptable">
+            </figure>
             
         </nav>
+         <!-- navbar version mobile -->
+         <button onclick="toggleDarkMode()" id="dark">🌙</button>
+<nav class="mobile-menu">
+    
+    <div class="dropdown">
+      <button class="fa fa-bars dropbtn"></button>
+      <div class="dropdown-content">
+        <li><a href="#">Acceuil</a></li>
+
+        <li><a href="#">Services&nbsp; &emsp;<i class="fa-solid fa-chevron-down"></i></a>
+        <ul class="submenu">
+            <li><a href="#">Comptabilité</a></li>
+            <li><a href="#">Fiscalité</a></li>
+            <li><a href="#">Audit et Certification</a></li>
+            <li><a href="#">Conseil en Gestion Financière</a></li>
+        </ul></li>
+        <li><a href="#">Ressources &nbsp;<i class="fa-solid fa-chevron-down"></i></a>
+            <ul class="submenu">
+                <li><a href="#">Guides Comptables et Fiscaux</a></li>
+                <li><a href="#">Actualités et articles</a></li>
+                <li><a href="#">Foire aux questions (FAQ)</a></li>
+                <li><a href="#">Termes Comptables</a></li>
+            </ul></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Espace Client</a></li>
+        
+      </div>
+      
+    </div>
+    
+  </nav>              
     </header>
     <button onclick="scrollToTop()" id="myBtn"><i class="fa-solid fa-arrow-up"></i></button>
 </body>
