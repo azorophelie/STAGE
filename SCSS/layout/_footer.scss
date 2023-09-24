@@ -1,0 +1,55 @@
+footer {
+    border: 1px rgb(184, 180, 180) solid;
+    height: 100%;
+    width: 100%;
+    margin-top: 15%;
+    background-color: rgb(184, 180, 180);
+    overflow: hidden;
+    color: white;
+    padding-top: 1%;
+  }
+.foo {
+   
+    display: inline;
+    width: 30%;
+    height: 35px;
+    padding-left: 5%;
+    ;
+    text-transform: uppercase;
+    list-style-type: none;
+    color: black;
+    margin-left: 25%;
+    padding-top: 0.6%;
+    overflow: hidden;
+       
+      
+      
+}
+.info {
+    margin-left: 33.5%;
+    padding-bottom: 2%;
+    padding-top :3%;
+    
+}
+.findepage{
+    color: black;
+    padding: 2%;
+}
+
+.findepage a:hover {
+    color: orange;
+}
+.pieddepage {
+    
+    display: inline;
+    margin-right: 25px;
+    color: black;
+    
+}
+.pieddepage a {
+    color: black;
+    text-decoration: none;
+}
+.pieddepage a:hover { 
+    color: orange;
+}

@@ -1,0 +1,118 @@
+
+/*----------------FORMULAIRE CONTACT-------------------*/
+section#contact {
+    
+    padding: 100px 0;
+}
+.formNous h2{
+    text-align: center;
+    font-size: 40px;
+}
+.formNous p {
+   text-align: center;
+}
+section#contact .formulaire {
+    max-width: 40%;
+   margin-left: 32%;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color: white;
+    height: 540px;
+    padding: 30px 10px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 50px -10px #a9bbe1;
+    
+
+}section#contact .formulaire form input, 
+section#contact .formulaire form textarea {
+    margin: 10px 0;
+    width: 41.4%;
+    padding: 10px 0;
+    margin-left: 5%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(230, 225, 225);
+    transition: 0.2s;
+}
+section#contact .formulaire form textarea {
+    width: 90%;
+    
+    resize: none;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+section#contact .formulaire form button {
+    width: 192px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #a9bbe1;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 30px;
+    outline: none;
+    margin: 0 auto;
+    transition: 0.2s;
+    margin-left: 35%;
+
+}
+section#contact .formulaire form button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 50px -10px #a9bbe1;
+}
+
+section#contact .formulaire form input:hover, 
+section#contact .formulaire form textarea:hover {
+border-bottom: 3px solid #a9bbe1;
+}
+
+/*---------------INFO ENTREPRISE-----------------*/
+.infocontact {
+    text-align: center;
+    font-size: 20px;
+}
+.information {
+    max-width: 40%;
+    margin-left: 32%;
+    
+     align-items: center;
+     flex-direction: row-reverse;
+     background-color: white;
+     height:400px;
+     padding: 30px 10px;
+     border-radius: 15px;
+     box-shadow: 0px 10px 50px -10px #a9bbe1;
+}
+.information a {
+    color: black;
+    cursor: pointer;
+    }
+.information a:hover {
+color: orange;
+}
+.information a:visited {
+    color: black;
+    }
+/*-----------------MAP ITINERAIRE-----------------*/
+.start {
+    margin-left: 35%;
+}
+#map { height: 500px; 
+    margin-left: 35%;
+width: 30%;
+}
+
+
+.DWT{
+    background-color: #a9bbe1;
+   border-radius : 5px 5px 5px 5px;
+}
+#steps {
+    max-width: 30%; /* Réduire la hauteur à 200 pixels */
+    margin-left: 35%;
+}

@@ -1,7 +1,69 @@
+/*----------------BODY ENTETE HTML-------------------*/
+
 body {
     background-color: white;
     color: black;
+    font-family: 'Poppins', sans-serif;
 }
 .log {
     text-align: center;
 }
+html {
+    overflow-x: hidden;
+}
+
+/*---------------PAGE SOCIAL----------------------*/
+.prise {
+    margin-left: 35.5%;
+    margin-top: 3%;
+    color: #a8583f;
+}
+.prestation {
+    margin-left: 35.5%;
+    font-size: 20px;
+}
+.container {
+    display: flex;
+    margin-left: 35%;
+    
+    
+}
+.tarifsocial {
+    margin-left: 25%;
+    color: #a8583f;
+}
+.htaxes {
+    text-align: center;
+}
+.etatsocial {
+    list-style-type: none; /* Supprime les puces par défaut */
+    
+  }
+  
+  .etatsocial li:before {
+    content: "-"; /* Utilise un point pour représenter les puces */
+     /* Ajoute un espace entre la puce et le texte */
+    text-decoration: none;
+    margin-left: 34.7%;
+    margin-right: 0.5%;
+  }
+  .ppc {
+    color: #4f6caa;
+    font-weight: bold;
+    font-size: 19px;
+    text-decoration: underline;
+  }
+.namepro {
+    display: flex;
+    margin-left: 34.7%;
+    line-height: 1;
+  }
+  
+ .product {
+    flex-basis: 40%;
+ }
+  
+  .price {
+    flex-basis: 5%; /* Occupe 50% de la largeur */
+    text-align: right;
+  }

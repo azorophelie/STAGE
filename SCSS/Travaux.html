@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/bea07da996.js" crossorigin="anonymous"></script>
+    <script src="azor.js"></script>
+    <link rel="shortcut icon" href="images/AJLAcommunity.png">
+    <title>AJLA COMMUNITY</title>
+</head>
+<body>
+    <header>
+        <div class="log">
+        <img class="logosite" src="images/AJLAcommunitynobg.png">
+        
+        </div>
+   
+        
+        <nav>
+          <!-------NAVBAR VERSION GRAND ECRAN------------->
+             <ul id="menu">
+                
+                <li><a class="navblack" href="index.html">Accueil</a></li>
+                <li><a class="navblack" href="#">Services et Tarifs &nbsp;<i class="fa-solid fa-chevron-down"></i></a>
+                    <ul>
+                        <li><a href="#">Comptabilité</a></li>
+                        <li><a href="social.html">Social</a></li>
+                        <li><a href="juridique.html">Juridique</a></li>
+                        <li><a href="#">Conseil en Gestion Financière</a></li>
+                    </ul>
+                </li>
+                <li><a class="navblack" href="#">Ressources&nbsp;<i class="fa-solid fa-chevron-down"></i></a>
+                    <ul>
+                        <li><a href="#">Guides Comptables et Fiscaux</a></li>
+                        <li><a href="#">Actualités et articles</a></li>
+                        <li><a href="#">Foire aux questions (FAQ)</a></li>
+                        <li><a href="#">Termes Comptables</a></li>
+                    </ul>
+                </li>
+               
+                </li>
+                <li><a  class="navblack contact" href="contact.html">Contact</a></li>
+                <li><a class="client" href="#"><i class="fas fa-arrow-right">&emsp;</i>Espace Client</a>
+                </li>
+                <button onclick="toggleDarkMode()" id="dark">🌙</button>
+                
+                
+            </ul>
+           
+            
+           
+            
+        </nav>
+         <!--------NAVBAR VERSION MOBILE------------>
+        
+<nav class="mobile-menu">
+    
+    <div class="dropdown">
+      <button class="fa fa-bars dropbtn"></button>
+      <div class="dropdown-content">
+        <li><a href="index.html">Acceuil</a></li>
+
+        <li><a href="#">Services&nbsp; &emsp;<i class="fa-solid fa-chevron-down"></i></a>
+        <ul class="submenu">
+            <li><a href="Travaux.html">Comptabilité</a></li>
+            <li><a href="social.html">Social</a></li>
+            <li><a href="juridique.html">Juridique</a></li>
+            <li><a href="#">Conseil en Gestion Financière</a></li>
+        </ul></li>
+        <li><a href="#">Ressources &nbsp;<i class="fa-solid fa-chevron-down"></i></a>
+            <ul class="submenu">
+                <li><a href="#">Guides Comptables et Fiscaux</a></li>
+                <li><a href="#">Actualités et articles</a></li>
+                <li><a href="#">Foire aux questions (FAQ)</a></li>
+                <li><a href="#">Termes Comptables</a></li>
+            </ul></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#">Espace Client</a></li>
+        
+      </div>
+      
+    </div>
+    
+  </nav>              
+    </header>
+    <button onclick="scrollToTop()" id="myBtn">↑</button>
+                                     <!------BAREME TARIF SUR TRAVAUX----------->
+
+    <h1 class="tarifsocial">Barème de tarification sur travaux complémentaires </h1><p class="htaxes">(Tous les prix sont exprimés hors taxes par heure)</p><br>
+    <ul class="etatsocial">
+        <li><span class="ppc">Facturation au temps passé :</span></li><br>
+        <div class="namepro">
+        <p class="product">Le collaborateur responsable de votre dossier</p> <p class="price">90,00 €</p></div>
+        <div class="namepro">
+            <p class="product">Chef de mission</p> <p class="price">130,00 €</p></div>
+            <div class="namepro">
+                <p class="product">Expert-comptable</p> <p class="price">200,00 €</p></div>
+                <br><br><br>
+                <h1 class="repartition">DETAIL ET RÉPARTITION DES TRAVAUX</h1>
+                
+                                    <!----------TABLEAU DES TRAVAUX--------------->   
+                      <table class="first">
+                        <caption><i>N.B : certains travaux peuvent ne pas concerner votre entreprise</i>.</caption>
+    <thead>
+        <tr>
+            <th>Liste des travaux :</th>
+            <th>Assurés par le <br>client</th>
+            <th colspan="2">Assurés par le cabinet <i>AJLA<br> COMMUNITY</i></th>
+        </tr>
+        <tr>
+            <th class="empty"></th>
+            <th class="empty"></th>
+            <th>Inclus dans le<br> forfait</th>
+            <th>Facturé au <br>temps passé</th></tr>
+        </tr>
+    </thead>
+    <tr >
+        <td class="delete"><strong>1°) Interventions en matière comptables :</strong></td><td class="good"></td><td class="good"></td><td class="good"></td>
+    </tr>
+<tr><td class="delete">- Établissement des factures de ventes, et classement chronologique des pièces comptables (Factures et pièces de banque)</td>
+<td class="good">✘</td>
+<td class="good"></td><td class="good"></td></tr>
+
+<tr>
+    <td class="delete">- Tenue du livre des recettes journlières (centralisation mensuelle des recettes)</td>
+    <td class="good">✘</td>
+    <td class="good"></td>
+    <td class="good"></td>
+</tr>
+<tr><td class="delete">- Dépôt des factures dans l'espace client</td>
+    <td class="good">✘</td>
+    <td class="good"></td>
+    <td class="good"></td></tr>
+<tr><td class="delete">- Connexion du compte bancaire dans l'espace client</td>
+    <td class="good">✘</td>
+    <td class="good"></td>
+    <td class="good"></td> </tr>
+<tr><td class="delete">- Tenue des journaux d'achats, banque, caisse, paie et opérations diverses</td>
+<td class="good"></td>
+<td class="good">✘</td>
+<td class="good"></td></tr>
+<tr><td class="delete">- Établissement des rapprochements bancaires</td>
+<td class="good"></td>
+<td class="good">✘</td>
+<td class="good"></td></tr>
+<tr><td class="delete"> - Saisie des acquisitions et des cessions d'immobilisations</td>
+<td class="good"></td>
+<td class="good">✘</td>
+<td class="good"></td></tr>
+<tr><td class="delete">- Établissement des comptes annuels (compte et résultat et annexe comptable)</td><td class="good"></td>
+    <td class="good">✘</td>
+    <td class="good"></td></tr>
+<tr><td class="supp">- Édition du fichier des écritures comptables</td><td class="supp"></td><td class="cross ">✘</td>
+    <td class="cross"></tr>
+    <tr><td></td><td></td><td></td><td></td></tr>
+<tr>
+    <td class="delete"><strong>2°) Interventions en matière fiscale :</strong></td><td class="good"></td><td class="good"></td><td class="good"></td>
+<tr><td class="delete">- Établissement de la liasse fiscale</td><td class="good"></td> <td class="good">✘</td><td class="good"></td></tr>
+<tr><td class="delete">- Établissement des déclarations périodiques de TVA</td><td class="good"></td> <td class="good">✘</td><td class="good"></td></tr>
+<tr><td class="delete">- Établissement de la déclaration de Taxe d'apprentissage</td><td class="good"></td> <td class="good">✘</td><td class="good"></td></tr>
+<tr><td class="delete">- Participation à la Formation Professionnelle continue</td><td class="good"></td> <td class="good">✘</td><td class="good"></td></tr>
+<tr><td class="delete">- Contribution Economique Territoriale</td><td class="good"></td> <td class="good">✘</td><td class="good"></td></tr>
+<tr><td class="delete"> - Cotisation sur la Valeur Ajoutée des Entreprises</td><td class="good"></td> <td class="good">✘</td><td class="good"></td></tr>
+<tr><td class="delete"> - Assistance au contrôle fiscal</td><td class="good"></td> <td class="good"></td><td class="good">✘</td></tr>
+<tr><td class="supp">- DAS 2 (Déclaration annuelle des honoraires et commissions)</td><td class="cross">✘</td><td class="cross"></td><td class="cross"></td></tr>
+<thead>
+    <tr>
+        <th>Liste des travaux :</th>
+        <th>Assurés par le <br>client</th>
+        <th colspan="2">Assurés par le cabinet <i>AJLA<br> COMMUNITY</i></th>
+    </tr>
+    <tr>
+        <th class="empty"></th>
+        <th class="empty"></th>
+        <th>Inclus dans le<br> forfait</th>
+        <th>Facturé au <br>temps passé</th></tr>
+    </tr>
+    
+</thead>
+<tr >
+    <td class="delete"><strong>3°) Interventions en matière Sociale :</strong></td><td class="good"></td><td class="good"></td><td class="good"></td>
+</tr>
+<tr><td class="delete">- Rédaction des bulletins de salaire</td><td class="good"></td><td class="good"></td><td class="good">✘</td></tr>
+<tr><td class="delete">- Établissement des bordereaux périodiques de cotisations URSSAF,ASSEDIC, Caisses de retraites</td><td class="good"></td><td class="good"></td><td class="good">✘</td></tr>
+<tr><td class="delete">- Déclaration Annuelle des Données Sociales/DSN</td><td class="good"></td><td class="good"></td><td class="good">✘</td></tr>
+<tr><td class="delete">- Rédaction des certificats de travail, reçus pour solde de tout compte et attestations ASSEDIC</td><td class="good"></td><td class="good"></td><td class="good">✘</td></tr>                 
+<tr><td class="delete">- Rédaction des attestations de salaires pour la perception d.I.J.S.S. en cas de congé maladie</td><td class="good"></td><td class="good"></td><td class="good">✘</td></tr>
+<tr><td class="delete">- Rédaction des Contrats de Travail</td><td class="good"></td><td class="good"></td><td class="good">✘</td></tr>
+<tr><td class="delete">- Mise en oeuvre d'une procédure de licenciement</td><td class="good"></td><td class="good"></td><td class="good">✘</td></tr>
+<tr><td class="supp">- Assistance aux contrôles URSSAF</td><td class="cross"></td><td class="cross"></td><td class="cross">✘</td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr >
+    <td class="delete"><strong>4°) Interventions en matière juridique :</strong></td><td class="good"></td><td class="good"></td><td class="good"></td>
+</tr>
+<tr><td class="delete">- Assistance dans la rédaction du rapport annuel de gestion du Gérant</td><td class="good">✘</td><td class="good"></td><td class="good"></td></tr>
+<tr><td class="delete">- Rédaction du procès-verbal de l'Assemblée Générale Ordinaire</td><td class="good"></td><td class="good"></td><td class="good">✘</td></tr>
+<tr><td class="delete">- Mise à jour des registres légaux côtés et paraphés</td><td class="good">✘</td><td class="good"></td><td class="good"></td></tr>
+<tr><td class="delete">- Dépôt des comptes annuels au Greffe du Tribunal de Commerce</td><td class="good"></td><td class="good"></td><td class="good">✘</td></tr>
+<tr><td class="supp">- Assistance juridique spécifique autre que AGO annuelle</td><td class="cross"></td><td class="cross"></td><td class="cross">✘</td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<td class="delete"><strong>5°) Interventions en matière de gestion et autres :</strong></td><td class="good"></td><td class="good"></td><td class="good"></td>
+<tr><td class="delete">- Établissement de situation comptables intermédiaires</td><td class="good"></td><td class="good"></td><td class="good">✘</td></tr>
+<tr><td class="delete">- Établissement de situations prévisionnelles de trésorerie </td><td class="good"></td><td class="good"></td><td class="good">✘</td></tr>
+<tr><td class="delete">- Établissement du bilan et comptes de résultat prévisionnel mensuels ou trimestriels</td><td class="good"></td><td class="good"></td><td class="good">✘</td></tr>
+<tr><td class="delete">- Établissement de tableaux de bord mensuels ou trimestriels</td><td class="good"></td><td class="good"></td><td class="good">✘</td></tr>
+<tr><td class="delete">- Tous autres travaux de gestion ou conseils financiers</td><td class="good"></td><td class="good"></td><td class="good">✘</td></tr>
+<tr><td class="delete">- Assistance à déclaration d'impôt sur revenu et I.F.I.</td><td class="good"></td><td class="good"></td><td class="good">✘</td></tr>
+<tr><td>- Organisation du contrôle interne et des procédures administratives</td><td></td><td></td><td class="croix">✘</td></tr>
+</table>        
+
+<footer>
+            
+    <ul class="foo">
+        <li class="pieddepage"><a href="#">ESPACE CLIENT</a></li>
+        <li class="pieddepage"><a href="#">PLAN DU SITE</a></li>
+        <li class="pieddepage"><a href="Travaux.html">COMPTABILITÉ</a></li>
+        <li class="pieddepage"><a href="#">MENTIONS-LÉGALES</a></li>
+        <li class="pieddepage"><a href="#">CONFIDENTIALITÉ</a></li>
+        <li class="pieddepage"><a href="contact.html">CONTACT</a></li>
+    </ul>
+    <div class="info">
+    <a class="findepage" href="https://goo.gl/maps/sMJ6oQpo4vMwYv1RA">70 rue Mademoiselle - 75015 PARIS</a> 
+    <a class="findepage" href="tel:0148871399">01 48 87 13 99</a>
+    <a class="findepage" href="mailto:contact@ajla-community.fr">contact@ajla-community.fr</a>
+    </div>
+  
+</body>
+</html>

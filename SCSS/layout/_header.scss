@@ -3,6 +3,7 @@
     margin:0;
     list-style:none;
     text-align:center;
+    
    
     
     
@@ -95,7 +96,7 @@
     text-decoration:none;
     display:block;
     padding:8px 70px;
-    font-family: "Fira", cursive;
+    
     ;
     
     }
@@ -124,6 +125,8 @@
 #menu li:hover a, #menu li li:hover a{
     color:#f7e2e2;
     }
+
+    /*----------------------PHOTO ENTETE ACCUEIL-----------------*/
 .entete {
     text-align: center;
     }
@@ -138,21 +141,19 @@
     width: 70%;
     opacity: .7;
     }
-    
+    /*-----------------------ESPACE CLIENT------------------*/
     .client {
-        margin-left: 76%;
-        margin-top: -1.1%;
+        
         color: black;
-        width: 4%;
+        width: 50%;
         background-color: #a9bbe1;
         background-image:-webkit-linear-gradient(top, #a9bbe1 0%, #2e4985 100%);
         background-image:linear-gradient(to bottom,  #a9bbe1 0%, #2e4985 100%);
         border-radius: 8px 8px 0 0;
     }
-        
-       
     
     .client:hover {
         color: #a9bbe1;
     }
+   /*-------------------------------------------------------*/
    

@@ -16,84 +16,115 @@
 <body>
     <header>
         <div class="log">
-        <img class="logosite" src="images/AJLAcommunity.png">
+        <img class="logosite" src="images/AJLAcommunitynobg.png">
         
         </div>
    
         
-        <nav>
-          
-             <ul id="menu">
-              
-                <li><a class="navblack" href="#">Accueil</a></li>
-                <li><a class="navblack" href="#">Services &nbsp;<i class="fa-solid fa-chevron-down"></i></a>
-                    <ul>
-                        <li><a href="#">Comptabilité</a></li>
-                        <li><a href="#">Fiscalité</a></li>
-                        <li><a href="#">Audit et Certification</a></li>
-                        <li><a href="#">Conseil en Gestion Financière</a></li>
-                    </ul>
-                </li>
-                <li><a class="navblack" href="#">Ressources&nbsp;<i class="fa-solid fa-chevron-down"></i></a>
-                    <ul>
-                        <li><a href="#">Guides Comptables et Fiscaux</a></li>
-                        <li><a href="#">Actualités et articles</a></li>
-                        <li><a href="#">Foire aux questions (FAQ)</a></li>
-                        <li><a href="#">Termes Comptables</a></li>
-                    </ul>
-                </li>
-                <!--<li><a class="navblack" href="#">menu 4 &nbsp;<i class="fa-solid fa-chevron-down"></i></a>
-                    <ul>
-                        <li><a href="#">Lien sous menu 4</a></li>
-                        <li><a href="#">Lien sous menu 4</a></li>
-                        <li><a href="#">Lien sous menu 4</a></li>
-                        <li><a href="#">Lien sous menu 4</a></li>
-                    </ul>-->
-                </li>
-                <li><a  class="navblack contact" href="#">Contact</a></li>
-                <button onclick="toggleDarkMode()" id="darkModeIcon">🌙</button>
-                
-                <a class="client" href="#"><i class="fas fa-arrow-right">&emsp;</i>Espace Client</a>
-            </ul>
            
-            
-            <figure class="entete">
-                <img src="images/cabinet.png" alt="Cabinet Expert Comptable">
-            </figure>
-            
-        </nav>
-         <!-- navbar version mobile -->
-         <button onclick="toggleDarkMode()" id="dark">🌙</button>
-<nav class="mobile-menu">
-    
-    <div class="dropdown">
-      <button class="fa fa-bars dropbtn"></button>
-      <div class="dropdown-content">
-        <li><a href="#">Acceuil</a></li>
+                
+                <nav>
+                  
+                     <ul id="menu">
+                        
+                        <li><a class="navblack" href="index.html">Accueil</a></li>
+                        <li><a class="navblack" href="#">Services et Tarifs &nbsp;<i class="fa-solid fa-chevron-down"></i></a>
+                            <ul>
+                                <li><a href="Travaux.html">Comptabilité</a></li>
+                                <li><a href="social.html">Social</a></li>
+                                <li><a href="juridique.html">Juridique</a></li>
+                                <li><a href="#">Conseil en Gestion Financière</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="navblack" href="#">Ressources&nbsp;<i class="fa-solid fa-chevron-down"></i></a>
+                            <ul>
+                                <li><a href="#">Guides Comptables et Fiscaux</a></li>
+                                <li><a href="#">Actualités et articles</a></li>
+                                <li><a href="#">Foire aux questions (FAQ)</a></li>
+                                <li><a href="#">Termes Comptables</a></li>
+                            </ul>
+                        </li>
+                        
+                        </li>
+                        <li><a  class="navblack contact" href="contact.html">Contact</a></li>
+                         <li> <a class="client" href="#"><i class="fas fa-arrow-right">&emsp;</i>Espace Client</a></li>
 
-        <li><a href="#">Services&nbsp; &emsp;<i class="fa-solid fa-chevron-down"></i></a>
-        <ul class="submenu">
-            <li><a href="#">Comptabilité</a></li>
-            <li><a href="#">Fiscalité</a></li>
-            <li><a href="#">Audit et Certification</a></li>
-            <li><a href="#">Conseil en Gestion Financière</a></li>
-        </ul></li>
-        <li><a href="#">Ressources &nbsp;<i class="fa-solid fa-chevron-down"></i></a>
-            <ul class="submenu">
-                <li><a href="#">Guides Comptables et Fiscaux</a></li>
-                <li><a href="#">Actualités et articles</a></li>
-                <li><a href="#">Foire aux questions (FAQ)</a></li>
-                <li><a href="#">Termes Comptables</a></li>
-            </ul></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Espace Client</a></li>
-        
-      </div>
-      
-    </div>
+                 
+                        <button onclick="toggleDarkMode()" id="dark">🌙</button>
+                        <img src="images/comptable.jpeg">
+                        <script>
+                        function toggleDarkMode() {
+            var body = document.getElementsByTagName("body")[0];
+            body.classList.toggle("dark-mode");
+            dark.textContent = body.classList.contains('dark-mode') ? '☀️' : '🌙';
+          }
+        </script>
+                        
+                  
+                       
+                    </ul>
+                   
+                    
+                    
+                    
+                </nav>  
+                <nav class="mobile-menu">
     
-  </nav>              
-    </header>
-    <button onclick="scrollToTop()" id="myBtn"><i class="fa-solid fa-arrow-up"></i></button>
+                    <div class="dropdown">
+                      <button class="fa fa-bars dropbtn"></button>
+                      <div class="dropdown-content">
+                        <li><a href="index.html">Acceuil</a></li>
+                
+                        <li><a href="#">Services&nbsp; &emsp;<i class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="submenu">
+                            <li><a href="Travaux.html">Comptabilité</a></li>
+                            <li><a href="social.html">Social</a></li>
+                            <li><a href="juridique.html">Juridique</a></li>
+                            <li><a href="#">Conseil en Gestion Financière</a></li>
+                        </ul></li>
+                        <li><a href="#">Ressources &nbsp;<i class="fa-solid fa-chevron-down"></i></a>
+                            <ul class="submenu">
+                                <li><a href="#">Guides Comptables et Fiscaux</a></li>
+                                <li><a href="#">Actualités et articles</a></li>
+                                <li><a href="#">Foire aux questions (FAQ)</a></li>
+                                <li><a href="#">Termes Comptables</a></li>
+                            </ul></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Espace Client</a></li>
+                        
+                      </div>
+                      
+                    </div>
+                    
+                  </nav>             
+            </header>
+        </div>
+        <footer>
+            
+            <ul class="foo">
+                <li class="pieddepage"><a href="#">ESPACE CLIENT</a></li>
+                <li class="pieddepage"><a href="#">PLAN DU SITE</a></li>
+                <li class="pieddepage"><a href="Travaux.html">COMPTABILITÉ</a></li>
+                <li class="pieddepage"><a href="#">MENTIONS-LÉGALES</a></li>
+                <li class="pieddepage"><a href="#">CONFIDENTIALITÉ</a></li>
+                <li class="pieddepage"><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <div class="info">
+            <a class="findepage" href="https://goo.gl/maps/sMJ6oQpo4vMwYv1RA">70 rue Mademoiselle - 75015 PARIS</a> 
+            <a class="findepage" href="tel:0148871399">01 48 87 13 99</a>
+            <a class="findepage" href="mailto:contact@ajla-community.fr">contact@ajla-community.fr</a>
+            </div>
+            
+            <button onclick="scrollToTop()" id="myBtn"><i class="fa-solid fa-arrow-up"></i></button>
+            <script>  function scrollToTop() {
+            window.scrollTo({
+              top: 0,
+              behavior: "smooth"
+            });
+          }</script>
+           
+        </body>
+        </html>
+   
 </body>
 </html>

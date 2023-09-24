@@ -1,0 +1,44 @@
+.first {
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: 25%;
+    box-shadow: 0px 10px 50px -10px #a9bbe1;
+    
+  }
+  .delete {
+    border-top: none;
+    border-bottom: none;
+  }
+  
+  .repartition {
+    text-align: center;
+    color: #a8583f;
+  }
+  caption {
+    text-align: left;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+.empty {
+  border-bottom: none;
+  
+  
+}
+.supp {
+  border-top: none;
+}
+.cross {
+  text-align: center;
+  border-top: none;
+}
+.good {
+  border-top: none;
+  border-bottom: none;
+  text-align: center;
+  
+}
+.croix {
+  text-align: center;
+}

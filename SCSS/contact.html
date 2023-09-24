@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bea07da996.js" crossorigin="anonymous"></script>
+    <script src="azor.js"></script>
+    
+  
+    <link rel="shortcut icon" href="images/AJLAcommunity.png">
+    <title>AJLA COMMUNITY</title>
+</head>
+<body>
+    <header>
+        <div class="log">
+        <img class="logosite" src="images/AJLAcommunitynobg.png">
+        
+        </div>
+   
+        
+        <nav>
+          
+             <ul id="menu">
+                
+                <li><a class="navblack" href="index.html">Accueil</a></li>
+                        <li><a class="navblack" href="#">Services et Tarifs &nbsp;<i class="fa-solid fa-chevron-down"></i></a>
+                            <ul>
+                                <li><a href="Travaux.html">Comptabilité</a></li>
+                                <li><a href="social.html">Social</a></li>
+                                <li><a href="juridique.html">Juridique</a></li>
+                                <li><a href="#">Conseil en Gestion Financière</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="navblack" href="#">Ressources&nbsp;<i class="fa-solid fa-chevron-down"></i></a>
+                            <ul>
+                                <li><a href="#">Guides Comptables et Fiscaux</a></li>
+                                <li><a href="#">Actualités et articles</a></li>
+                                <li><a href="#">Foire aux questions (FAQ)</a></li>
+                                <li><a href="#">Termes Comptables</a></li>
+                            </ul>
+                        </li>
+                        
+                        </li>
+                        <li><a  class="navblack contact" href="contact.html">Contact</a></li>
+                         <li> <a class="client" href="#"><i class="fas fa-arrow-right">&emsp;</i>Espace Client</a></li>
+
+                <button onclick="toggleDarkMode()" id="dark">🌙</button>
+                
+            </ul>
+           
+            
+           
+            
+        </nav>
+         <!--------NAVBAR VERSION MOBILE--------->
+        
+         <nav class="mobile-menu">
+    
+            <div class="dropdown">
+              <button class="fa fa-bars dropbtn"></button>
+              <div class="dropdown-content">
+                <li><a href="index.html">Acceuil</a></li>
+        
+                <li><a href="#">Services&nbsp; &emsp;<i class="fa-solid fa-chevron-down"></i></a>
+                <ul class="submenu">
+                    <li><a href="Travaux.html">Comptabilité</a></li>
+                    <li><a href="social.html">Social</a></li>
+                    <li><a href="juridique.html">Juridique</a></li>
+                    <li><a href="#">Conseil en Gestion Financière</a></li>
+                </ul></li>
+                <li><a href="#">Ressources &nbsp;<i class="fa-solid fa-chevron-down"></i></a>
+                    <ul class="submenu">
+                        <li><a href="#">Guides Comptables et Fiscaux</a></li>
+                        <li><a href="#">Actualités et articles</a></li>
+                        <li><a href="#">Foire aux questions (FAQ)</a></li>
+                        <li><a href="#">Termes Comptables</a></li>
+                    </ul></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">Espace Client</a></li>
+                
+              </div>
+              
+            </div>
+            
+          </nav> 
+    </header>
+    <button onclick="scrollToTop()" id="myBtn">↑</button>
+
+    <!-----------FORMULAIRE DE CONTACT----------->
+
+    <section id="contact">
+        <div class="formulaire">
+    <form action="#" method="post">
+        
+            
+                
+        <div class="formNous">
+
+            <h2>CONTACTEZ-NOUS</h2>
+    
+            <p class="ameliorations">Tous les champs sont nécessaires</p>
+            </div>
+    
+        <input type="text" name="lname" placeholder="Votre nom.." required>&emsp;
+        <input type="text" name="fname" placeholder="Votre prénom.." required>
+        <input type="email" name="email" placeholder="contact@ajla-community.fr" required>&emsp;
+        <input type="text" name="number" placeholder="Votre numéro de téléphone.." required>
+        <textarea name="message" placeholder="Entrer votre message ici.."></textarea><br><br>
+        <button type="submit">Envoyer</button>
+    </form>
+    </div>
+    </section>
+    <!--------------CADRE ADRESSE ENTREPRISE------------->
+    <!--------------CADRE ADRESSE ENTREPRISE------------->
+    <h3 class="infocontact">Vous pouvez nous joindre par mail, télephone ou par courrier.</h3>
+    <div class="information">
+       
+        <p>Adresse postale :</p>
+        <a href="https://goo.gl/maps/sMJ6oQpo4vMwYv1RA">70 rue Mademoiselle - 75015 PARIS</a>
+        <br><br>
+        <p>Numéro de téléphone :</p>
+        <a href="tel:0148871399">01 48 87 13 99</a><br><br>
+        <p>Adresse E-mail :</p>
+        <a href="mailto:contact@ajla-community.fr">contact@ajla-community.fr</a>
+        <br><br>
+    </div>
+
+            <!----------MAP ITINERAIRE------------>
+      <div id="map"></div>
+      <div id="steps"></div>
+      <div class="start">
+        <label for="start">Adresse de départ :</label>
+        <input type="text" id="start" placeholder="Entrez l'adresse de départ" required>&emsp;
+        <button class="DWT" onclick="calculateRoute('DRIVING')">Itinéraire en voiture</button>&emsp;
+        <button class="DWT" onclick="calculateRoute('WALKING')">Itinéraire à pied</button>&emsp;
+        <button class="DWT" onclick="calculateRoute('TRANSIT')">Itinéraire en transports en commun</button>
+      </div>
+      </div>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCJhmXh50UbVX5DHl4JRzHcCIOKNyCUjn8&callback=initMap" async defer></script>
+      <footer>
+            
+        <ul class="foo">
+            <li class="pieddepage"><a href="#">ESPACE CLIENT</a></li>
+            <li class="pieddepage"><a href="#">PLAN DU SITE</a></li>
+            <li class="pieddepage"><a href="Travaux.html">COMPTABILITÉ</a></li>
+            <li class="pieddepage"><a href="#">MENTIONS-LÉGALES</a></li>
+            <li class="pieddepage"><a href="#">CONFIDENTIALITÉ</a></li>
+            <li class="pieddepage"><a href="contact.html">CONTACT</a></li>
+        </ul>
+        <div class="info">
+        <a class="findepage" href="https://goo.gl/maps/sMJ6oQpo4vMwYv1RA">70 rue Mademoiselle - 75015 PARIS</a> 
+        <a class="findepage" href="tel:0148871399">01 48 87 13 99</a>
+        <a class="findepage" href="mailto:contact@ajla-community.fr">contact@ajla-community.fr</a>
+        </div>
+        
+        <button onclick="scrollToTop()" id="myBtn"><i class="fa-solid fa-arrow-up"></i></button>
+        <script>  function scrollToTop() {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth"
+        });
+      }</script>
+       
+    </body>
+    </html>
+
+     
+    
+    </body>
+    </html>
